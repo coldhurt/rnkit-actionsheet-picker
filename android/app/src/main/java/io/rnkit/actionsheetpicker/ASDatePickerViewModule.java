@@ -160,7 +160,7 @@ public class ASDatePickerViewModule extends ReactContextBaseJavaModule implement
         }else if (type.equals("date")) {
             return new boolean[]{true,true,true,false,false,false};
         }else if (type.equals("datetime")) {
-            return new boolean[]{true,true,true,true,true,true};
+            return new boolean[]{true,true,true,true,true,false};
         }
         return new boolean[]{true,true,true,true,true,true};
     }
